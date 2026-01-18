@@ -1,10 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Google Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-variation-settings: "GRAD" 0;
+}
+
 /* Global Styles */
 body {
     background-color: #ffffff;
     color: #1d1d1f;
-    font-family: "Google Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-variation-settings: "GRAD" 0;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -14,9 +20,6 @@ h2,
 h3,
 h4,
 .navbar-brand {
-    font-family: "Google Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-variation-settings: "GRAD" 0;
     letter-spacing: -0.02em;
     color: #0a0a0b;
 }
